@@ -1,0 +1,29 @@
+package 산술연산자;
+
+public class Ex04증강연산자 {
+
+	public static void main(String[] args) {
+		
+		int num = 4;
+		// 증감연산자 --> 위치에 따라서 증가되는 순서가 변동
+		// ++변수 >> 1증가 >> 변수 사용
+		// 변수-- >> 변수사용 >> 1감소
+		System.out.println(++num);
+		System.out.println(num);
+		System.out.println(num++);
+		System.out.println(num);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
