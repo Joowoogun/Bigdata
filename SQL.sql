@@ -8,7 +8,7 @@ tel varchar(50),
 age int,
 email varchar(50) 
 );
--- <-- 이렇게해서 하나의 스키마 그걸 CRUD 함
+-- <-- 이렇게해서 하dept나의 스키마 그걸 CRUD 함
 -- 중복이 안되는값 넣기 primary key 기본 키 auto_increment <-- 입력할수록 증가하는 값
 -- CRUD 단계 드래그해서 위에 번개모양 눌러서 작동
 insert into student(name,tel,age,email)
