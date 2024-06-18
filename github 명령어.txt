@@ -1,0 +1,12 @@
+git 허브 처음 설치시
+name, email 등록해야함.
+
+처음 폴더 만들고
+git init
+git remote add origin + 깃허브가서 원하는 레파지토리 주소 복사
+
+
+
+$ git add .
+$ git commit -m "날-짜"
+$ git push origin master

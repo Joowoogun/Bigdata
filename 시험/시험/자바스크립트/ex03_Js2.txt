@@ -1,0 +1,14 @@
+function plusf(){
+    plus = Number(document.getElementById("txt").innerText)    
+    plus +=1  
+    document.getElementById("txt").innerText = plus    
+}
+
+
+function minusf(){              
+    minus = Number(document.getElementById("txt").innerText)                
+    if(minus>0){
+        minus -=1
+        document.getElementById("txt").innerText = minus  
+  }       
+}

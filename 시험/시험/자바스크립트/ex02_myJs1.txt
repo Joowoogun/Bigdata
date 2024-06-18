@@ -1,0 +1,26 @@
+
+function changestyle() {
+    let blue = document.getElementById("blue").style;
+    let green = document.getElementById("green").style;
+    let grey = document.getElementById("grey").style;  
+    blue.marginLeft="100px";
+    green.marginLeft="200px";
+    grey.marginLeft="300px";                
+}
+
+function changeboder(){
+    let red = document.getElementById("red").style;
+    let blue = document.getElementById("blue").style;
+    let green = document.getElementById("green").style;
+    let grey = document.getElementById("grey").style;
+    red.borderBottomLeftRadius="50%"; 
+    blue.borderBottomLeftRadius="50%"; 
+    green.borderBottomLeftRadius="50%"; 
+    grey.borderBottomLeftRadius="50%";
+
+    red.borderTopRightRadius="50%"; 
+    blue.borderTopRightRadius="50%"; 
+    green.borderTopRightRadius="50%"; 
+    grey.borderTopRightRadius="50%";
+
+}
